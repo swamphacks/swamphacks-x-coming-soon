@@ -29,7 +29,7 @@ const SpaceGroteskFont = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: 'SwampHacks X',
-  description: "SwampHacks X coming soon...',
+  description: "SwampHacks X coming soon...",
 };
 
 export default function RootLayout({
