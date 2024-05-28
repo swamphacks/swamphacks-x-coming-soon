@@ -219,7 +219,7 @@ export default function Home() {
         <div className='flex h-fit w-5/6 flex-col items-center justify-evenly sm:h-fit sm:w-2/3 sm:flex-row'>
           <button
             onClick={() => {
-              window.location.href = 'mailto:info@swamphacks.com';
+              window.location.href = 'mailto:contact@swamphacks.com';
             }}
             id='sponsor-button'
             className='mt-16 h-16 w-full rounded-md bg-white px-5 py-3 text-xl text-black opacity-0 transition-all hover:bg-zinc-300 sm:mt-0 sm:w-44'
