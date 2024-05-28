@@ -228,7 +228,7 @@ export default function Home() {
           </button>
           <button
             onClick={() =>
-              window.open('https://discord.swamphacks.com', '_blank')
+              window.open('https://discord.gg/NfRPv9JtAG', '_blank')
             }
             id='discord-button'
             className='mt-5 flex h-16 w-full flex-row items-center justify-evenly rounded-md border border-zinc-800 bg-zinc-950 px-5 py-3 text-xl text-white opacity-0 transition-all hover:border-zinc-700 sm:mt-0 sm:w-44'
