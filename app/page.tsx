@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import DiscordIcon from '../public/logos/discord.svg';
 import { useAnimate } from 'framer-motion';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import X from '../public/images/X.svg';
 
@@ -199,7 +199,7 @@ export default function Home() {
             <p>Florida&apos;s Flagship Hackathon</p>
             <p>Gainesville, FL</p>
             <p className='from-green-500 from-20% via-purple-600 via-80% to-pink-500'>
-              Coming Spring 2025
+              Jan 24-26, 2025
             </p>
           </div>
         ) : (
@@ -210,7 +210,7 @@ export default function Home() {
               Gainesville, FL{' '}
               <span className='tracking-tighter text-zinc-500'>&lt;/&gt;</span>{' '}
               <span className='from-green-500 from-20% via-purple-600 via-80% to-pink-500'>
-                Coming Spring 2025
+                Jan 24-26, 2025
               </span>
             </p>
           </div>
